@@ -49,7 +49,7 @@ Result stats (87/92/78/65%) are IQ Health's claims and are labeled as such. Kara
   structure of IQ Health's privacy-policy, terms-of-use and terms-and-conditions pages but original text. They
   make clear IQ Health is the seller of record and link to IQ Health's own policies for orders/returns/privacy.
 - Steve's exact FDA disclaimer + Prop 65 line live in terms.html#fda / #prop65 and (shortened) in every footer.
-- Contact address used: hello@thegoatdrink.com (needs a mailbox or forward).
+- Contact address for site questions and order help: steve@conceptosdesign.com (Steve, 2026-10-20).
 
 ## Voice
 No em-dashes. Short sentences. Conversational.
