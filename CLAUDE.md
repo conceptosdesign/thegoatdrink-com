@@ -22,9 +22,7 @@ Steve is an affiliate; every CTA sends people to the IQ Health product page with
   (`GOATED-Performance-Drink.pdf`): teal `#40b8b0`, pink `#c880a8`, black `#0b0a09`, white base.
   Fonts: Montserrat 800/900 (uppercase headings), Figtree (body), Mr Dafoe (script accents like "The Sauce").
 - `images/`: hero-12pack.jpg (from brainiqhealth.com), tray-24 / can-single / nutrition-facts (cropped from the
-  PDF via the JXA pdf2png recipe at 3600px). `box-12pack.png` is a transparent cutout: cropped from the PDF with
-  the sell sheet's QR code painted out (`source/box-12pack-src.png`), background + drop shadow removed with
-  Canva's remove-background (Adobe's storage quota was full), exported via a scratch Canva design. `assets/`: logo-mark.png (crown G, transparent),
+  PDF via the JXA pdf2png recipe at 3600px). `goatedbox.png` is Steve's own transparent cutout of the open 12 pack box (uploaded 2026-10-20), used in the offer section. `assets/`: logo-mark.png (crown G, transparent),
   favicon, apple-touch-icon, og-image.jpg. `reference-sugar-matters.jpg` is reference only, not deployed.
 - `ghl-export/` is empty and unused; this site ships on Vercel, not GHL.
 
@@ -63,4 +61,4 @@ static server; test the function with node or on the Vercel URL.
 - Attach thegoatdrink.com in Vercel + fix registrar DNS (Steve)
 - privacy.html and terms.html are linked in the footer but do not exist yet
 - og-image.jpg is the bare product shot; add a wordmark if wanted
-- The Canva scratch design "GOATED box cutout canvas" (DAHYnOQ-pXM) can be deleted from Steve's Canva
+- The Canva scratch design "GOATED box cutout canvas" (DAHYnOQ-pXM) is unused and can be deleted from Steve's Canva
