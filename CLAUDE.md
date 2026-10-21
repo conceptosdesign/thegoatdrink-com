@@ -21,7 +21,7 @@ Steve is an affiliate; every CTA sends people to the IQ Health product page with
 - Brand tokens are the `:root` vars at the top of the style block, sampled from the sell sheet
   (`GOATED-Performance-Drink.pdf`): teal `#40b8b0`, pink `#c880a8`, black `#0b0a09`, white base.
   Fonts: Montserrat 800/900 (uppercase headings), Figtree (body), Mr Dafoe (script accents like "The Sauce").
-- `images/`: hero-12pack.jpg (from brainiqhealth.com), tray-24 / can-single / nutrition-facts (cropped from the
+- `images/`: goated12pack.png (Steve's transparent 12 pack cutout, 500px), tray-24 / can-single / nutrition-facts (cropped from the
   PDF via the JXA pdf2png recipe at 3600px). `goatedbox.png` is Steve's own transparent cutout of the open 12 pack box (uploaded 2026-10-20), used in the offer section. `assets/`: logo-mark.png (crown G, transparent),
   favicon, apple-touch-icon, og-image.jpg. `reference-sugar-matters.jpg` is reference only, not deployed.
 - `ghl-export/` is empty and unused; this site ships on Vercel, not GHL.
