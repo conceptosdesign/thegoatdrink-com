@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GOATED Nootropic Performance Drink | The GOAT Drink</title>
+<meta name="description" content="GOATED is a zero sugar, zero calorie nootropic performance drink with plant caffeine, choline, lutein, BCAAs and NAD. Train smart, fight smart, smart fuel. 12 pack for $42.">
+<link rel="canonical" href="https://thegoatdrink.com/">
+<link rel="icon" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:title" content="GOATED Nootropic Performance Drink">
+<meta property="og:description" content="Zero sugar. Zero calories. Plant caffeine, nootropics, BCAAs and eye health in a 12 oz can.">
+<meta property="og:image" content="https://thegoatdrink.com/assets/og-image.jpg">
+<meta property="og:url" content="https://thegoatdrink.com/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Figtree:wght@400;500;600;700&family=Mr+Dafoe&display=swap" rel="stylesheet">
+<style>
+  /* ---- Brand tokens (sampled from the GOATED sell sheet) ---- */
+  :root{
+    --teal:#40b8b0;
+    --teal-dark:#2e9790;
+    --teal-tint:#e6f6f5;
+    --pink:#c880a8;
+    --pink-tint:#f7e6ef;
+    --black:#0b0a09;
+    --ink:#161514;
+    --muted:#5e5b58;
+    --paper:#ffffff;
+    --paper-2:#f6f5f2;
+    --line:rgba(11,10,9,.1);
+    --radius:20px;
+    --max:1140px;
+    --head:"Montserrat",system-ui,sans-serif;
+    --body:"Figtree",system-ui,sans-serif;
+    --script:"Mr Dafoe",cursive;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.55;overflow-x:clip;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block;height:auto}
+  a{color:inherit;text-decoration:none}
+  .wrap{width:min(100% - 32px,var(--max));margin-inline:auto}
+  h1,h2,h3{font-family:var(--head);font-weight:800;letter-spacing:-.025em;line-height:1.02;text-transform:uppercase}
+  h3{text-transform:none;letter-spacing:-.01em}
+  .script{font-family:var(--script);font-weight:400;text-transform:none;letter-spacing:0;color:var(--pink)}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.76rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-dark);margin-bottom:16px}
+  .eyebrow::before{content:"";width:22px;height:3px;background:var(--teal);border-radius:2px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 28px;border-radius:999px;font-weight:700;font-size:1rem;line-height:1;transition:transform .15s ease,box-shadow .15s ease,background .15s ease;white-space:nowrap}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-primary{background:var(--black);color:#fff;box-shadow:0 10px 24px -12px rgba(11,10,9,.6)}
+  .btn-primary:hover{background:#000}
+  .btn-teal{background:var(--teal);color:var(--black)}
+  .btn-teal:hover{background:#4cc7bf}
+  .btn-ghost{border:2px solid var(--black);color:var(--black)}
+  .btn-ghost:hover{background:var(--paper-2)}
+  .btn small{font-weight:500;opacity:.75}
+
+  /* ---- Nav ---- */
+  .nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--head);font-weight:900;font-size:1.3rem;letter-spacing:-.02em}
+  .brand img{height:44px;width:auto}
+  .brand span{position:relative}
+  .brand span::after{content:"";position:absolute;left:0;right:0;bottom:-3px;height:3px;background:var(--teal);border-radius:2px}
+  .nav-links{display:flex;gap:26px;font-size:.95rem;font-weight:500;color:var(--muted)}
+  .nav-links a:hover{color:var(--ink)}
+  .nav .btn{padding:11px 18px;font-size:.9rem}
+  @media (max-width:820px){.nav-links{display:none}.brand{font-size:1.1rem}.nav .btn{padding:10px 14px;font-size:.82rem}}
+
+  /* ---- Hero ---- */
+  .hero{position:relative;padding:72px 0 56px;overflow:hidden;background:
+    radial-gradient(ellipse 60% 70% at 85% 40%,rgba(64,184,176,.22),transparent 65%),
+    radial-gradient(ellipse 40% 50% at 70% 90%,rgba(200,128,168,.18),transparent 60%),var(--paper)}
+  .hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+  .hero h1{font-size:clamp(2.7rem,6.2vw,5rem);margin-bottom:20px}
+  .hero h1 .script{display:block;font-size:.72em;margin-top:.05em;line-height:1.1}
+  .hero p.lead{font-size:1.15rem;color:var(--muted);max-width:50ch;margin-bottom:30px}
+  .hero-ctas{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+  .hero-art{position:relative}
+  .hero-art img{width:100%;max-width:620px;margin-inline:auto;filter:drop-shadow(0 30px 40px rgba(11,10,9,.18))}
+  .stamp{position:absolute;top:4%;left:2%;width:118px;height:118px;border-radius:50%;background:var(--teal);color:var(--black);display:grid;place-items:center;text-align:center;font-family:var(--head);font-weight:900;font-size:.8rem;line-height:1.1;text-transform:uppercase;transform:rotate(-8deg);box-shadow:0 10px 24px -10px rgba(11,10,9,.4)}
+  .stamp b{display:block;font-size:1.9rem;line-height:1}
+  .proof{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:34px;padding-top:22px;border-top:1px solid var(--line);font-size:.86rem;font-weight:600;color:var(--muted)}
+  .proof span{display:inline-flex;align-items:center;gap:7px}
+  .proof span::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--pink)}
+  @media (max-width:860px){.hero{padding:40px 0 48px}.hero .wrap{grid-template-columns:1fr}.hero-art{order:-1}.hero-art img{max-width:440px}.stamp{width:96px;height:96px;font-size:.68rem}.stamp b{font-size:1.5rem}}
+
+  /* ---- Ticker ---- */
+  .ticker{background:var(--black);color:#fff;overflow:hidden;padding:14px 0;border-block:3px solid var(--teal)}
+  .ticker-track{display:flex;gap:48px;white-space:nowrap;font-family:var(--head);font-weight:800;font-size:.95rem;letter-spacing:.12em;text-transform:uppercase;animation:tick 32s linear infinite;width:max-content}
+  .ticker-track span{display:inline-flex;align-items:center;gap:48px}
+  .ticker-track i{font-style:normal;color:var(--pink)}
+  @keyframes tick{to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){.ticker-track{animation:none}}
+
+  /* ---- Sections ---- */
+  section{padding:88px 0}
+  .section-head{max-width:62ch;margin-bottom:44px}
+  .section-head h2{font-size:clamp(2rem,4.4vw,3.2rem);margin-bottom:14px}
+  .section-head p{color:var(--muted);font-size:1.1rem}
+  .center{text-align:center;margin-inline:auto}
+
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:30px 28px;position:relative;overflow:hidden}
+  .card::before{content:"";position:absolute;top:0;left:0;width:100%;height:5px;background:var(--teal)}
+  .card:nth-child(even)::before{background:var(--pink)}
+  .card .ico{width:46px;height:46px;border-radius:12px;background:var(--teal-tint);display:grid;place-items:center;margin-bottom:18px;color:var(--teal-dark)}
+  .card:nth-child(even) .ico{background:var(--pink-tint);color:var(--pink)}
+  .card h3{font-size:1.2rem;margin-bottom:8px}
+  .card p{color:var(--muted);font-size:.98rem}
+  @media (max-width:860px){.grid-3{grid-template-columns:1fr 1fr}}
+  @media (max-width:560px){.grid-3{grid-template-columns:1fr}}
+
+  /* Sugar */
+  .sugar{background:var(--paper-2)}
+  .sugar .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+  .compare{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .cmp{border-radius:var(--radius);padding:28px 26px;background:var(--paper);border:1px solid var(--line)}
+  .cmp.bad{background:#fff}
+  .cmp.good{background:var(--black);color:#fff;border-color:var(--black)}
+  .cmp .lbl{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;opacity:.7;margin-bottom:10px}
+  .cmp .big{font-family:var(--head);font-weight:900;font-size:clamp(2.4rem,5vw,3.6rem);line-height:1;letter-spacing:-.03em}
+  .cmp.bad .big{color:var(--pink)}
+  .cmp.good .big{color:var(--teal)}
+  .cmp .sub{margin-top:8px;font-size:.9rem;opacity:.75}
+  @media (max-width:860px){.sugar .wrap{grid-template-columns:1fr}}
+
+  /* Inside */
+  .inside .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:start}
+  .facts-img{border-radius:var(--radius);border:1px solid var(--line);overflow:hidden;background:#fff;position:sticky;top:96px}
+  .blend{display:grid;grid-template-columns:150px 1fr;gap:18px;padding:24px 0;border-top:1px solid var(--line)}
+  .blend:last-of-type{border-bottom:1px solid var(--line)}
+  .blend .mg{font-family:var(--head);font-weight:900;font-size:2rem;line-height:1;letter-spacing:-.03em;color:var(--teal-dark)}
+  .blend .mg small{display:block;font-family:var(--body);font-weight:600;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+  .blend h3{font-size:1.15rem;margin-bottom:6px}
+  .blend p{color:var(--muted);font-size:.96rem}
+  .blend .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .blend .tags span{font-size:.78rem;font-weight:600;padding:5px 10px;border-radius:999px;background:var(--teal-tint);color:var(--teal-dark)}
+  .blend:nth-child(odd) .tags span{background:var(--pink-tint);color:#9c5a80}
+  .vits{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .vits div{flex:1 1 120px;background:var(--paper-2);border-radius:14px;padding:14px 16px}
+  .vits b{display:block;font-family:var(--head);font-size:1.2rem;letter-spacing:-.02em}
+  .vits small{color:var(--muted);font-size:.8rem;font-weight:600}
+  @media (max-width:860px){.inside .wrap{grid-template-columns:1fr}.facts-img{position:static;max-width:420px}.blend{grid-template-columns:1fr;gap:8px}}
+
+  /* Results */
+  .results{background:var(--teal-tint)}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .stat{background:#fff;border-radius:var(--radius);padding:30px 24px;text-align:center}
+  .stat b{display:block;font-family:var(--head);font-weight:900;font-size:clamp(2.6rem,5vw,3.8rem);line-height:1;letter-spacing:-.04em;color:var(--black)}
+  .stat b i{font-style:normal;color:var(--teal)}
+  .stat p{margin-top:10px;color:var(--muted);font-size:.95rem}
+  .note{font-size:.82rem;color:var(--muted);margin-top:18px;text-align:center}
+  @media (max-width:860px){.stats{grid-template-columns:1fr 1fr}}
+
+  /* How */
+  .how .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s}
+  .step{padding:28px;border-radius:var(--radius);background:var(--paper-2);counter-increment:s}
+  .step::before{content:"0" counter(s);font-family:var(--head);font-weight:900;font-size:2.2rem;color:var(--pink);letter-spacing:-.04em;display:block;margin-bottom:12px;line-height:1}
+  .step h3{font-size:1.15rem;margin-bottom:6px}
+  .step p{color:var(--muted);font-size:.96rem}
+  @media (max-width:860px){.how .steps{grid-template-columns:1fr}}
+
+  /* Offer */
+  .offer{background:var(--black);color:#fff;position:relative;overflow:hidden}
+  .offer::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 80% 50%,rgba(64,184,176,.25),transparent 60%);pointer-events:none}
+  .offer .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;position:relative;z-index:1}
+  .offer .eyebrow{color:var(--teal)}
+  .offer h2{font-size:clamp(2.2rem,5vw,3.6rem);margin-bottom:16px}
+  .offer h2 .script{font-size:.8em}
+  .offer p{color:rgba(255,255,255,.72);max-width:48ch;margin-bottom:26px;font-size:1.08rem}
+  .pricebox{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:26px}
+  .pricebox .p{font-family:var(--head);font-weight:900;font-size:3.4rem;line-height:1;letter-spacing:-.04em;color:#fff}
+  .pricebox .per{font-size:1rem;color:rgba(255,255,255,.7);font-weight:500}
+  .pricebox .per b{color:var(--teal)}
+  .offer ul{list-style:none;display:grid;gap:10px;margin:0 0 30px;font-size:.98rem}
+  .offer li{display:flex;gap:10px;align-items:center;color:rgba(255,255,255,.88)}
+  .offer li::before{content:"";flex:0 0 18px;height:18px;border-radius:50%;background:var(--teal) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230b0a09' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L19 7'/%3E%3C/svg%3E") center/11px no-repeat}
+  .offer .ship{font-size:.84rem;color:rgba(255,255,255,.55);margin-top:14px}
+  .offer-art img{width:100%;max-width:560px;margin-inline:auto;border-radius:var(--radius)}
+  @media (max-width:860px){.offer .wrap{grid-template-columns:1fr}.offer-art img{max-width:420px}}
+
+  /* FAQ */
+  .faq{max-width:760px;margin-inline:auto}
+  details{border-top:1px solid var(--line);padding:4px 0}
+  details:last-of-type{border-bottom:1px solid var(--line)}
+  summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 0;font-family:var(--head);font-weight:700;font-size:1.05rem}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-size:1.5rem;color:var(--teal-dark);flex:0 0 auto;transition:transform .2s}
+  details[open] summary::after{transform:rotate(45deg)}
+  details p{padding:0 0 20px;color:var(--muted);max-width:62ch}
+
+  /* Final CTA */
+  .final{text-align:center;padding:96px 0;background:linear-gradient(180deg,var(--paper),var(--pink-tint))}
+  .final h2{font-size:clamp(2.4rem,6vw,4.4rem);margin-bottom:14px}
+  .final p{color:var(--muted);font-size:1.1rem;max-width:46ch;margin:0 auto 30px}
+
+  footer{background:var(--black);color:rgba(255,255,255,.6);padding:40px 0;font-size:.86rem}
+  footer .wrap{display:grid;gap:20px}
+  footer .row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+  footer nav{display:flex;gap:20px}
+  footer nav a:hover{color:#fff}
+  footer .legal{font-size:.78rem;line-height:1.6;max-width:92ch;color:rgba(255,255,255,.45)}
+  footer .brand{color:#fff;font-size:1.1rem}
+  footer .brand img{height:36px}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="assets/logo-mark.png" alt="GOATED crown G logo"><span>GOATED</span></a>
+    <nav class="nav-links">
+      <a href="#why">Why GOATED</a>
+      <a href="#inside">What's inside</a>
+      <a href="#results">Results</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-primary cta" href="/go" rel="nofollow sponsored">Get the 12 Pack <small>$42</small></a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Nootropic Performance Drink</span>
+        <h1>Train smart.<br>Fight smart.<span class="script">Smart fuel.</span></h1>
+        <p class="lead">Forget the sugar crash. Forget the jittery spike. GOATED runs on plant caffeine, nootropics, BCAAs and eye-health nutrients, with zero sugar and zero calories in every 12 oz can.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary cta" href="/go" rel="nofollow sponsored">Get the 12 Pack <small>$42</small></a>
+          <a class="btn btn-ghost" href="#inside">See what's inside</a>
+        </div>
+        <div class="proof">
+          <span>0g sugar</span><span>0 calories</span><span>Caffeine from green tea</span><span>Karate Combat performance partner</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="images/hero-12pack.jpg" alt="GOATED The Sauce nootropic performance drink, 12 pack of white cans" width="1400" height="1400" fetchpriority="high">
+        <div class="stamp" aria-hidden="true"><div><b>0</b>sugar<br>0 calories</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Performance <i>+</i> Brain <i>+</i> Eye Health <i>&#9679;</i> Zero Sugar <i>&#9679;</i> Plant Caffeine <i>&#9679;</i> Nootropics <i>&#9679;</i> BCAAs <i>&#9679;</i> NAD <i>&#9679;</i> Train Smart, Fight Smart <i>&#9679;</i></span>
+      <span>Performance <i>+</i> Brain <i>+</i> Eye Health <i>&#9679;</i> Zero Sugar <i>&#9679;</i> Plant Caffeine <i>&#9679;</i> Nootropics <i>&#9679;</i> BCAAs <i>&#9679;</i> NAD <i>&#9679;</i> Train Smart, Fight Smart <i>&#9679;</i></span>
+    </div>
+  </div>
+
+  <section id="why">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Why GOATED</span>
+        <h2>Energy drinks give you a spike. This gives you an edge.</h2>
+        <p>Most cans are sugar and synthetic caffeine. GOATED was built as the first all-natural energy, clinical and cognitive health drink. Every ingredient is there for a reason.</p>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z"/></svg></div>
+          <h3>Smooth, sustained energy</h3>
+          <p>Caffeine from green tea instead of a synthetic hit. Clean lift, no jitters, no crash on the back end.</p>
+        </article>
+        <article class="card">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <h3>Sharper memory and focus</h3>
+          <p>Choline supports acetylcholine, the neurotransmitter behind learning, recall and staying locked in.</p>
+        </article>
+        <article class="card">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>Eye health and blue-light defense</h3>
+          <p>Lutein and capsanthin, the carotenoids your eyes use to handle screens, lights and long days.</p>
+        </article>
+        <article class="card">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4v6a6 6 0 0 0 12 0V4"/><path d="M4 4h4M16 4h4M12 16v4M8 20h8"/></svg></div>
+          <h3>Faster recovery</h3>
+          <p>A 2:1:1 vegan BCAA blend for muscle recovery and less fatigue, whether you train, fight or grind.</p>
+        </article>
+        <article class="card">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg></div>
+          <h3>Cellular energy with NAD</h3>
+          <p>NAD supports the energy your cells actually run on and helps fight the slowdown that comes with age.</p>
+        </article>
+        <article class="card">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <h3>B vitamins and vitamin C</h3>
+          <p>B3, B6, B12 and 180mg of vitamin C for lasting mental and physical performance, not a 20 minute window.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sugar">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Why sugar-free matters</span>
+        <h2 style="font-size:clamp(2rem,4.4vw,3.2rem);margin-bottom:14px">Your energy drink should not come with metabolic debt.</h2>
+        <p style="color:var(--muted);font-size:1.08rem;max-width:52ch">A traditional energy drink packs 27 to 54 grams of sugar per can. That is more than the American Heart Association recommends for an entire day. Quick spike, hard crash, extra calories, and a long-term hit to insulin and heart health. GOATED skips all of it.</p>
+      </div>
+      <div class="compare">
+        <div class="cmp bad"><div class="lbl">Typical energy drink</div><div class="big">27&ndash;54g</div><div class="sub">sugar per can</div></div>
+        <div class="cmp good"><div class="lbl">GOATED</div><div class="big">0g</div><div class="sub">sugar, 0 calories, sweetened with allulose</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="inside" class="inside">
+    <div class="wrap">
+      <div class="facts-img"><img src="images/nutrition-facts.jpg" alt="GOATED nutrition facts panel: 0 calories, 0g sugar, vitamin C, B3, B6, B12, Smart Fuel blends" width="669" height="1620" loading="lazy"></div>
+      <div>
+        <span class="eyebrow">What's inside</span>
+        <h2 style="font-size:clamp(2rem,4.4vw,3.2rem);margin-bottom:12px">Three blends. One can. Nothing you have to apologize for.</h2>
+        <p style="color:var(--muted);font-size:1.08rem;margin-bottom:28px">Carbonated water, natural flavor, citric acid, and the three Smart Fuel blends below. Sweetened with allulose. That is the whole label.</p>
+
+        <div class="blend">
+          <div class="mg">685mg<small>Smart Fuel Blend</small></div>
+          <div><h3>Energy and focus</h3><p>The engine. Plant caffeine from green tea for a clean lift, with ginseng, oligonol and capsanthin to back it up.</p>
+            <div class="tags"><span>Caffeine from green tea</span><span>Ginseng</span><span>Oligonol</span><span>Capsanthin</span></div></div>
+        </div>
+        <div class="blend">
+          <div class="mg">300mg<small>Restore Blend</small></div>
+          <div><h3>Recovery</h3><p>Vegan BCAAs in the 2:1:1 ratio for muscle recovery and reduced fatigue.</p>
+            <div class="tags"><span>L-Leucine</span><span>L-Valine</span><span>L-Isoleucine</span></div></div>
+        </div>
+        <div class="blend">
+          <div class="mg">60mg<small>Vision Blend</small></div>
+          <div><h3>Eye health</h3><p>The nutrients your eyes burn through under screens and bright lights.</p>
+            <div class="tags"><span>Lutein</span><span>Marigold</span><span>Vitamin A (beta carotene)</span><span>Capsanthin</span></div></div>
+        </div>
+
+        <div class="vits">
+          <div><b>180mg</b><small>Vitamin C &middot; 200% DV</small></div>
+          <div><b>32mg</b><small>Vitamin B3 &middot; 200% DV</small></div>
+          <div><b>25mg</b><small>Vitamin B6 &middot; 1470% DV</small></div>
+          <div><b>200mcg</b><small>Vitamin B12 &middot; 8330% DV</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="results" class="results">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="eyebrow" style="justify-content:center">Reported results</span>
+        <h2>What people noticed after four weeks.</h2>
+        <p>Developed by neuroscientists after more than seven years of research. Here is what users reported.</p>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>87<i>%</i></b><p>reported improved memory recall</p></div>
+        <div class="stat"><b>92<i>%</i></b><p>experienced better mental clarity and focus</p></div>
+        <div class="stat"><b>78<i>%</i></b><p>noticed less brain fog and faster processing</p></div>
+        <div class="stat"><b>65<i>%</i></b><p>reported a stronger ability to concentrate</p></div>
+      </div>
+      <p class="note">Figures as reported by IQ Health, the maker of GOATED. Individual results vary.</p>
+    </div>
+  </section>
+
+  <section class="how">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">How to use it</span>
+        <h2>Simple. One or two cans a day.</h2>
+      </div>
+      <div class="steps">
+        <div class="step"><h3>Crack one before you go</h3><p>Before training, a fight camp session, a long work block or a drive. Smooth lift in minutes, no spike.</p></div>
+        <div class="step"><h3>Ride it, don't crash</h3><p>Plant caffeine and B vitamins carry the energy. Choline and the vision blend keep your head and eyes sharp.</p></div>
+        <div class="step"><h3>Recover and repeat</h3><p>BCAAs and NAD handle the back end. Take one to two cans daily for sustained cognitive support and energy.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="buy" class="offer">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">The 12 Pack</span>
+        <h2>GOATED <span class="script">The Sauce</span><br>Original flavor</h2>
+        <p>Twelve 12 fl oz cans of the nootropic performance drink. Naturally flavored, zero sugar, zero calories, shipped straight from IQ Health.</p>
+        <div class="pricebox"><span class="p">$42</span><span class="per">per 12 pack &middot; <b>$3.50 a can</b></span></div>
+        <ul>
+          <li>Performance + brain + eye health in every can</li>
+          <li>685mg Smart Fuel blend, 300mg BCAAs, 60mg vision blend</li>
+          <li>0g sugar, 0 calories, sweetened with allulose</li>
+          <li>Official Karate Combat performance partner</li>
+        </ul>
+        <a class="btn btn-teal cta" href="/go" rel="nofollow sponsored">Get the 12 Pack for $42</a>
+        <p class="ship">Free US shipping on orders over $149. Checkout happens on brainiqhealth.com.</p>
+      </div>
+      <div class="offer-art"><img src="images/box-12pack.jpg" alt="GOATED The Sauce 12 pack box, black with teal and pink logo" width="1200" height="1436" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="eyebrow" style="justify-content:center">FAQ</span>
+        <h2>Questions, answered.</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Is there sugar in GOATED?</summary>
+          <p>No. Zero grams of sugar and zero calories per can. It is sweetened with allulose, a rare sugar your body does not metabolize like regular sugar.</p>
+        </details>
+        <details>
+          <summary>Where does the caffeine come from?</summary>
+          <p>Green tea. It is part of the 685mg Smart Fuel blend along with ginseng, oligonol and capsanthin. Plant caffeine delivers a smoother lift than the synthetic caffeine in most energy drinks.</p>
+        </details>
+        <details>
+          <summary>What does it taste like?</summary>
+          <p>The flavor is called The Sauce. It is the original, naturally flavored GOATED. Light, crisp and carbonated, not syrupy.</p>
+        </details>
+        <details>
+          <summary>How many can I drink in a day?</summary>
+          <p>IQ Health recommends one to two cans daily for sustained cognitive support and energy.</p>
+        </details>
+        <details>
+          <summary>Who makes GOATED?</summary>
+          <p>IQ Health LLC in Boise, Idaho. GOATED is the official performance partner of Karate Combat. Your order ships from IQ Health.</p>
+        </details>
+        <details>
+          <summary>What about shipping?</summary>
+          <p>Orders ship within the US. Shipping is free on orders over $149, so two or more 12 packs ship free. Full shipping and return details are on the checkout page.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="wrap">
+      <h2>Fuel up.</h2>
+      <p>Train smart. Fight smart. Grab the GOATED 12 pack and feel the difference the first can.</p>
+      <a class="btn btn-primary cta" href="/go" rel="nofollow sponsored">Get the 12 Pack <small>$42</small></a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <a class="brand" href="#top"><img src="assets/logo-mark.png" alt=""><span style="color:#fff">GOATED</span></a>
+      <nav><a href="#why">Why GOATED</a><a href="#inside">What's inside</a><a href="#faq">FAQ</a><a class="cta" href="/go" rel="nofollow sponsored">Order</a></nav>
+    </div>
+    <p class="legal">GOATED is made by IQ Health LLC, 106 N. 6th Street, Boise, ID 83716. Orders placed through this site are fulfilled by IQ Health at brainiqhealth.com. thegoatdrink.com is an independent affiliate site and may earn a commission on purchases made through its links, at no extra cost to you.</p>
+    <p class="legal">These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+    <div class="row"><span>&copy; <span id="yr"></span> thegoatdrink.com</span><nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></div>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
