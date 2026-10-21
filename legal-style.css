@@ -1,0 +1,44 @@
+/* Shared styles for legal pages. Mirrors the tokens in index.html. */
+:root{--teal:#40b8b0;--teal-dark:#2e9790;--pink:#c880a8;--black:#0b0a09;--ink:#161514;--muted:#5e5b58;--paper:#fff;--paper-2:#f6f5f2;--line:rgba(11,10,9,.1);--head:"Montserrat",system-ui,sans-serif;--body:"Figtree",system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:var(--teal-dark);text-decoration:underline;text-underline-offset:2px}
+.wrap{width:min(100% - 32px,820px);margin-inline:auto}
+.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav .wrap{width:min(100% - 32px,1140px);display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--head);font-weight:900;font-size:1.3rem;letter-spacing:-.02em;color:var(--ink);text-decoration:none}
+.brand img{height:44px;width:auto}
+.brand span{position:relative}
+.brand span::after{content:"";position:absolute;left:0;right:0;bottom:-3px;height:3px;background:var(--teal);border-radius:2px}
+.nav a.back{text-decoration:none;color:var(--muted);font-weight:500;font-size:.95rem}
+.nav a.back:hover{color:var(--ink)}
+main{padding:64px 0 88px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.76rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-dark);margin-bottom:14px}
+.eyebrow::before{content:"";width:22px;height:3px;background:var(--teal);border-radius:2px}
+h1{font-family:var(--head);font-weight:800;font-size:clamp(2rem,5vw,3rem);letter-spacing:-.025em;line-height:1.05;text-transform:uppercase;margin-bottom:10px}
+.meta{color:var(--muted);font-size:.95rem;margin-bottom:36px}
+h2{font-family:var(--head);font-weight:800;font-size:1.35rem;letter-spacing:-.015em;margin:40px 0 12px;padding-top:28px;border-top:1px solid var(--line)}
+h3{font-family:var(--head);font-weight:700;font-size:1.05rem;margin:22px 0 8px}
+p,li{color:#2b2927;font-size:1.02rem}
+p{margin-bottom:14px}
+ul{margin:0 0 16px 22px}
+li{margin-bottom:6px}
+.callout{background:var(--paper-2);border-left:4px solid var(--teal);border-radius:0 14px 14px 0;padding:18px 20px;margin:20px 0}
+.callout.warn{border-left-color:var(--pink)}
+.callout p:last-child{margin-bottom:0}
+.toc{background:var(--paper-2);border-radius:16px;padding:20px 24px;margin-bottom:12px}
+.toc ol{margin-left:20px;columns:2;column-gap:28px}
+.toc li{font-size:.95rem;margin-bottom:4px}
+.toc a{text-decoration:none;color:var(--ink)}
+.toc a:hover{color:var(--teal-dark)}
+@media (max-width:600px){.toc ol{columns:1}}
+footer{background:var(--black);color:rgba(255,255,255,.6);padding:40px 0;font-size:.86rem}
+footer .wrap{width:min(100% - 32px,1140px);display:grid;gap:18px}
+footer .row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+footer nav{display:flex;gap:20px}
+footer nav a{color:inherit;text-decoration:none}
+footer nav a:hover{color:#fff}
+footer .legal{font-size:.78rem;line-height:1.6;max-width:92ch;color:rgba(255,255,255,.45)}
+footer .legal a{color:rgba(255,255,255,.7)}
+footer .brand{color:#fff;font-size:1.1rem}
+footer .brand img{height:36px}

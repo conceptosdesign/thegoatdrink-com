@@ -21,8 +21,10 @@ Steve is an affiliate; every CTA sends people to the IQ Health product page with
 - Brand tokens are the `:root` vars at the top of the style block, sampled from the sell sheet
   (`GOATED-Performance-Drink.pdf`): teal `#40b8b0`, pink `#c880a8`, black `#0b0a09`, white base.
   Fonts: Montserrat 800/900 (uppercase headings), Figtree (body), Mr Dafoe (script accents like "The Sauce").
-- `images/`: hero-12pack.jpg (from brainiqhealth.com), box-12pack / tray-24 / can-single / nutrition-facts
-  (cropped from the PDF via the JXA pdf2png recipe at 3600px). `assets/`: logo-mark.png (crown G, transparent),
+- `images/`: hero-12pack.jpg (from brainiqhealth.com), tray-24 / can-single / nutrition-facts (cropped from the
+  PDF via the JXA pdf2png recipe at 3600px). `box-12pack.png` is a transparent cutout: cropped from the PDF with
+  the sell sheet's QR code painted out (`source/box-12pack-src.png`), background + drop shadow removed with
+  Canva's remove-background (Adobe's storage quota was full), exported via a scratch Canva design. `assets/`: logo-mark.png (crown G, transparent),
   favicon, apple-touch-icon, og-image.jpg. `reference-sugar-matters.jpg` is reference only, not deployed.
 - `ghl-export/` is empty and unused; this site ships on Vercel, not GHL.
 
@@ -41,6 +43,14 @@ Steve is an affiliate; every CTA sends people to the IQ Health product page with
 (lutein, marigold, vit A, capsanthin). Price $42 / 12 pack, free US shipping over $149. Flavor: The Sauce.
 Result stats (87/92/78/65%) are IQ Health's claims and are labeled as such. Karate Combat performance partner.
 
+## Legal pages (added 2026-10-20)
+- `privacy.html` and `terms.html` share `legal-style.css`. Served at /privacy and /terms (cleanUrls). noindex.
+- Written for an AFFILIATE site operated by Conceptos Design LLC (Nevada law, Washoe County venue), modeled on the
+  structure of IQ Health's privacy-policy, terms-of-use and terms-and-conditions pages but original text. They
+  make clear IQ Health is the seller of record and link to IQ Health's own policies for orders/returns/privacy.
+- Steve's exact FDA disclaimer + Prop 65 line live in terms.html#fda / #prop65 and (shortened) in every footer.
+- Contact address used: hello@thegoatdrink.com (needs a mailbox or forward).
+
 ## Voice
 No em-dashes. Short sentences. Conversational.
 
@@ -53,3 +63,4 @@ static server; test the function with node or on the Vercel URL.
 - Attach thegoatdrink.com in Vercel + fix registrar DNS (Steve)
 - privacy.html and terms.html are linked in the footer but do not exist yet
 - og-image.jpg is the bare product shot; add a wordmark if wanted
+- The Canva scratch design "GOATED box cutout canvas" (DAHYnOQ-pXM) can be deleted from Steve's Canva
