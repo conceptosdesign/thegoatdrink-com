@@ -5,8 +5,13 @@ Steve is an affiliate; every CTA sends people to the IQ Health product page with
 
 - Repo: https://github.com/conceptosdesign/thegoatdrink-com (main, pushes auto-deploy)
 - Vercel: project `thegoatdrink-com` in team conceptosdesigns-projects, prod at https://thegoatdrink-com.vercel.app
-- Custom domain thegoatdrink.com: Steve attaches it in Vercel (Settings > Domains). At the registrar, remove
-  the old forward to stevelemus.com/goated/ and point the apex A record at 76.76.21.21 (www CNAME cname.vercel-dns.com).
+- Custom domain: thegoatdrink.com and www.thegoatdrink.com are attached to the Vercel project (added 2026-10-20,
+  ownership verified, www 308-redirects to the apex). Domain is at GoDaddy on GoDaddy nameservers with GoDaddy
+  forwarding turned on (that is where the old forward to stevelemus.com/goated/ comes from). To go live Steve must,
+  in GoDaddy DNS: turn OFF forwarding, delete the forwarding A records (3.33.130.190 / 15.197.148.33), then add
+  A @ -> 216.150.1.1 and CNAME www -> 45c4b84eb929b254.vercel-dns-016.com (Vercel's rank 1 values from the
+  domains config API; 76.76.21.21 / cname.vercel-dns.com are the older fallbacks). Alternative: switch nameservers
+  to ns1/ns2.vercel-dns.com and let Vercel manage DNS. Check with `vercel domains inspect thegoatdrink.com`.
 
 ## Layout
 - `index.html` is the source of truth. Single self-contained file, all CSS and JS inline, no build step.
